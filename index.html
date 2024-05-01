@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Front-End para API de Items</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mt-5">
+
+    <h2>Añadir Item</h2>
+    <form id="addItemForm" class="mb-3">
+      <div class="input-group">
+        <input type="text" id="itemName" class="form-control" placeholder="Nombre del Item" required>
+        <div class="input-group-append">
+          <button type="submit" class="btn btn-primary">Añadir</button>
+        </div>
+      </div>
+    </form>
+
+
+    <h1>Items</h1>
+    <div id="messages"></div>
+    <div id="items" class="my-3"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
